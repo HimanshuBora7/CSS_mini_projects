@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #0e0725, #5c03bc, #e536ab, #f4e5f0);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: aliceblue;
+}
+.container {
+  /* border: 1px solid pink; */
+  padding: 8px;
+  height: 95vh;
+}
+.carousal {
+  border: 1px solid orange;
+  height: 28vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.main_body {
+  /* border: 1px solid violet; */
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.vedio1 {
+  /* border: 1px solid yellowgreen; */
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.vedio2 {
+  /* border: 1px solid yellow; */
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.vedio3 {
+  /* border: 1px solid green; */
+  margin: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+.footer {
+  height: 4.5vh;
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 11px;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.button {
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.vedio_pic {
+  /* border: 1px solid orange; */
+  margin: 20px;
+  height: 18rem;
+  border-radius: 10px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* border: 1px solid gray; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.vedio_pic {
+  width: 90%;
+  height: 300px;
+  overflow: hidden;
+}
+.vedio_pic img {
+  width: 100%; /* Make image fill the container */
+  height: 100%; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image to fit without stretching */
+  display: block; /* Remove extra space below image */
+}
+
+/* 5 */
+.btn {
+  background: rgb(89, 16, 107);
+  background: linear-gradient(
+    0deg,
+    rgb(188, 35, 194) 0%,
+    rgb(155, 32, 189) 100%
+  );
+}
+.btn:hover {
+  color: #f0094a;
+  background: transparent;
+  box-shadow: none;
+}
+.btn:before,
+.btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #5bee58;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn:hover:before,
+.btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
