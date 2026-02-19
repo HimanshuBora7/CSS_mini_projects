@@ -14,3 +14,15 @@ p {
 a {
   text-align: justify;
 } */
+
+/* h2 {
+  line-height: 3;
+}
+p {
+  line-height: 2;
+} */
+
+h2 {
+  /* squeeze the letters towards each other wiht negative sign */
+  letter-spacing: -2px;
+}
