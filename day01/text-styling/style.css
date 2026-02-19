@@ -1,0 +1,19 @@
+h1 {
+  /* font-weight: 400; */
+  text-decoration: underline palevioletred wavy;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+p {
+  font-weight: 700;
+  text-decoration: underline blue wavy;
+  font-style: oblique 10deg;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: decimal;
+}
