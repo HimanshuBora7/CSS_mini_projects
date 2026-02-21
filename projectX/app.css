@@ -19,11 +19,6 @@ LETTER SPACING
 
 
 
-
-
-
-
-
 */
 
 h1 {
@@ -33,7 +28,8 @@ h1 {
   letter-spacing: -2px;
   font-size: 62px;
   font-family: "Poppins", sans-serif;
-  color: #212529;
+  /* color: #212529; */
+  color: #0a3323;
 }
 h2 {
   font-weight: 700;
