@@ -1,0 +1,11 @@
+.hero-section {
+  font-size: 30px;
+  color: blueviolet;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+* {
+  color: purple;
+  border-top: 5px solid palevioletred;
+}
