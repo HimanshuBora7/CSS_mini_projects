@@ -145,3 +145,12 @@ ul {
 .footer {
   text-align: center;
 }
+
+.highlight-secondary {
+  color: aliceblue;
+  background-color: #339af0;
+}
+.cta-heading {
+  color: black;
+  background-color: rgb(243, 161, 8);
+}
