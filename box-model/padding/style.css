@@ -1,4 +1,4 @@
-div {
+/* div {
   width: 500px;
   height: 500px;
   background-color: khaki;
@@ -11,4 +11,11 @@ a {
   background-color: black;
   color: white;
   padding: 20px 40px;
+} */
+
+div {
+  width: 1000px;
+  background-color: khaki;
+  text-align: center;
+  padding: 50px;
 }
