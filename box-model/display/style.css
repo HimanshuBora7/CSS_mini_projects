@@ -1,0 +1,7 @@
+.inline-element {
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 50px;
+  margin: 20px;
+  border: 20px solid red;
+}
