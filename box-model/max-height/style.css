@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box-model {
+  background-color: plum;
+  width: 700px;
+  max-height: 1500px;
+  overflow: auto;
+}
