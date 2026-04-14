@@ -1,0 +1,17 @@
+.feature-1 {
+  font-size: 16px;
+}
+.feature-2 {
+  font-size: 32px;
+}
+.feature-heading {
+  font-size: 2em;
+}
+.feature-paragraph {
+  font-size: 1em;
+}
+
+.feature-button {
+  font-size: 0.5em;
+  background-color: lightpink;
+}
