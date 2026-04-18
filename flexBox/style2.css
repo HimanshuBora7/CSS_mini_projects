@@ -1,0 +1,18 @@
+img {
+  width: 10%;
+  background-color: greenyellow;
+  border-radius: 20%;
+}
+.container {
+  background-color: palegoldenrod;
+}
+h1 {
+  background-color: plum;
+  padding: 100px;
+}
+a {
+  display: inline-block;
+  background-color: yellow;
+  padding: 10px;
+  margin: 10px;
+}
