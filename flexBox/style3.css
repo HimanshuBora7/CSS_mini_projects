@@ -1,19 +1,17 @@
 img {
-  width: 10%;
+  width: 100px;
   background-color: greenyellow;
   border-radius: 20%;
 }
 .container {
   background-color: palegoldenrod;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 h1 {
   background-color: plum;
-  padding: 100px;
 }
 a {
-  display: inline-block;
   background-color: yellow;
-  padding: 10px;
-  margin: 10px;
 }

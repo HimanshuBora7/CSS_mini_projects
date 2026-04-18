@@ -1,0 +1,29 @@
+.flex-container {
+  width: 800px;
+  height: 800px;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row-reverse;
+  color: red;
+  font-size: 30px;
+}
+.flex-item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: plum;
+}
+.flex-item-2 {
+  width: 50px;
+  height: 300px;
+  background-color: purple;
+}
+.flex-item-3 {
+  width: 100px;
+  height: 150px;
+  background-color: salmon;
+}
+.flex-item-4 {
+  width: 150px;
+  height: 50px;
+  background-color: peru;
+}
