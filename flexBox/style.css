@@ -1,12 +1,37 @@
 .flex-container {
   width: 800px;
   height: 800px;
+}
+
+.flex-container-1 {
   background-color: greenyellow;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-evenly;
+
   color: red;
   font-size: 30px;
 }
+.flex-container-2 {
+  /* width: 800px;
+  height: 800px; */
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+
+  color: red;
+  font-size: 30px;
+}
+.flex-container-3 {
+  /* width: 800px;
+  height: 800px; */
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+
+  color: red;
+  font-size: 30px;
+}
+
 .flex-item-1 {
   width: 100px;
   height: 100px;
